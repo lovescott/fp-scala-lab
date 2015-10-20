@@ -57,6 +57,4 @@ object MyModule {
     println(formatResult("factorial", 7, (x: Int) => factorial(x)))
   }
 
-
-
 }
