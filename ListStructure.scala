@@ -10,6 +10,7 @@ object List{
     case Cons(x, xs) => x + sum(xs)
   }
 
+
   def product(ds: List[Double]): Double = ds match {
     case Nil => 1.0
     case (0.0, _) => 0.0
@@ -21,6 +22,7 @@ object List{
   }
 
   def drop[A](l: List[A], n: Int): List[A] ={
+      @an
     if(n <= 0) l
     else l match {
       case Nil => Nil

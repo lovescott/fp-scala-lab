@@ -15,7 +15,7 @@ object MyModule {
     go(n, 1)
   }
 
-  def fib(n: Int): Int = {
+  def fib(n: Int):= Int = {
     @annotation.tailrec
     def go(n: Int, num: Int, fibnum: Int): Int = {
       if (n <= 0) fibnum
